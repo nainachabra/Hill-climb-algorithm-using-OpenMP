@@ -1,0 +1,12 @@
+In this report, we present a parallelized implementation of the hill climbing algorithm using OpenMP,
+a popular shared-memory parallelization library for C and C++. Our goal is to leverage multiple
+processing cores available in modern CPUs to accelerate the search for the optimal solution. The
+parallelized hill climbing algorithm divides the search space into smaller regions that can be explored
+concurrently by multiple threads, thereby significantly reducing the time required to converge towards
+the optimal solution.
+We begin by providing an overview of the hill climbing algorithm and its sequential implementation.
+Next, we discuss the principles of parallelization using OpenMP and describe how we parallelize the
+hill climbing algorithm to exploit multi-core processors effectively. We then present experimental
+results demonstrating the performance improvement achieved through parallelization on different
+problem instances. Finally, we conclude with insights into the scalability, limitations, and potential
+future enhancements of the parallelized hill climbing algorithm using OpenMP.
